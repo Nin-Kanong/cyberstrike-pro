@@ -1,0 +1,41 @@
+{
+  "target": {
+    "ip": "192.168.127.129",
+    "port": 80,
+    "uri": "/"
+  },
+  "attacks": {
+    "http_flood": {
+      "enabled": true,
+      "threads": 100,
+      "delay": 0.001
+    },
+    "slowloris": {
+      "enabled": true,
+      "connections": 500,
+      "keep_alive_interval": 5
+    },
+    "udp_flood": {
+      "enabled": true,
+      "threads": 50,
+      "packet_size": 1024
+    },
+    "post_flood": {
+      "enabled": true,
+      "threads": 30,
+      "data_size": 10240
+    }
+  },
+  "evasion": {
+    "random_user_agents": true,
+    "spoof_headers": true,
+    "jitter": [
+      0.001,
+      0.05
+    ]
+  },
+  "logging": {
+    "log_file": "DDOS_Attack_AGGRESSIVE.log",
+    "live_stats_interval": 2
+  }
+}

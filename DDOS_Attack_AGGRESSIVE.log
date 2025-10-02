@@ -1,0 +1,29 @@
+[2025-10-03 01:09:02] ATTACK: 💀 LAUNCHING ULTRA-AGGRESSIVE MULTI-VECTOR ATTACK...
+[2025-10-03 01:09:02] CONTROLLER: ✅ Started http_flood
+[2025-10-03 01:09:04] STATUS: 📊 LIVE: HTTP=78/s | POST=0/s | UDP=0/s | Slowloris=44 | Total=78/s
+[2025-10-03 01:09:04] CONTROLLER: ✅ Started slowloris
+[2025-10-03 01:09:04] CONTROLLER: ✅ Started udp_flood
+[2025-10-03 01:09:05] CONTROLLER: ✅ Started post_flood
+[2025-10-03 01:09:05] TIMER: ⏰ Attack will run for 60 seconds...
+[2025-10-03 01:09:06] STATUS: 📊 LIVE: HTTP=39/s | POST=0/s | UDP=5008/s | Slowloris=71 | Total=5048/s
+[2025-10-03 01:09:08] STATUS: 📊 LIVE: HTTP=26/s | POST=4/s | UDP=7745/s | Slowloris=119 | Total=7777/s
+[2025-10-03 01:09:10] STATUS: 📊 LIVE: HTTP=21/s | POST=6/s | UDP=8768/s | Slowloris=127 | Total=8796/s
+[2025-10-03 01:09:12] STATUS: 📊 LIVE: HTTP=55/s | POST=17/s | UDP=8929/s | Slowloris=165 | Total=9002/s
+[2025-10-03 01:09:14] STATUS: 📊 LIVE: HTTP=45/s | POST=14/s | UDP=9608/s | Slowloris=165 | Total=9668/s
+[2025-10-03 01:09:16] STATUS: 📊 LIVE: HTTP=39/s | POST=12/s | UDP=10240/s | Slowloris=165 | Total=10292/s
+[2025-10-03 01:09:18] STATUS: 📊 LIVE: HTTP=34/s | POST=10/s | UDP=10576/s | Slowloris=165 | Total=10622/s
+[2025-10-03 01:09:20] STATUS: 📊 LIVE: HTTP=30/s | POST=9/s | UDP=10913/s | Slowloris=165 | Total=10954/s
+[2025-10-03 01:09:22] STATUS: 📊 LIVE: HTTP=27/s | POST=8/s | UDP=11338/s | Slowloris=165 | Total=11375/s
+[2025-10-03 01:09:24] STATUS: 📊 LIVE: HTTP=25/s | POST=7/s | UDP=11740/s | Slowloris=165 | Total=11773/s
+[2025-10-03 01:09:26] STATUS: 📊 LIVE: HTTP=22/s | POST=7/s | UDP=11855/s | Slowloris=166 | Total=11886/s
+[2025-10-03 01:09:28] STATUS: 📊 LIVE: HTTP=21/s | POST=6/s | UDP=12047/s | Slowloris=166 | Total=12075/s
+[2025-10-03 01:09:30] STATUS: 📊 LIVE: HTTP=19/s | POST=6/s | UDP=12093/s | Slowloris=166 | Total=12119/s
+[2025-10-03 01:09:32] STATUS: 📊 LIVE: HTTP=18/s | POST=5/s | UDP=12180/s | Slowloris=166 | Total=12205/s
+[2025-10-03 01:09:34] STATUS: 📊 LIVE: HTTP=17/s | POST=5/s | UDP=12260/s | Slowloris=166 | Total=12283/s
+[2025-10-03 01:09:36] STATUS: 📊 LIVE: HTTP=16/s | POST=5/s | UDP=12120/s | Slowloris=166 | Total=12142/s
+[2025-10-03 01:09:38] STATUS: 📊 LIVE: HTTP=15/s | POST=4/s | UDP=12031/s | Slowloris=166 | Total=12051/s
+[2025-10-03 01:09:40] STATUS: 📊 LIVE: HTTP=14/s | POST=4/s | UDP=11934/s | Slowloris=167 | Total=11953/s
+[2025-10-03 01:09:42] STATUS: 📊 LIVE: HTTP=13/s | POST=4/s | UDP=11784/s | Slowloris=167 | Total=11802/s
+[2025-10-03 01:09:44] STATUS: 📊 LIVE: HTTP=13/s | POST=4/s | UDP=11690/s | Slowloris=167 | Total=11707/s
+[2025-10-03 01:09:46] STATUS: 📊 LIVE: HTTP=12/s | POST=3/s | UDP=11634/s | Slowloris=167 | Total=11650/s
+[2025-10-03 01:09:48] STATUS: 📊 LIVE: HTTP=11/s | POST=3/s | UDP=11581/s | Slowloris=167 | Total=11597/s
