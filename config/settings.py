@@ -1,12 +1,13 @@
 """
 Default configuration settings for CyberStrike Pro
 """
+
 import random
 import string
 
 DEFAULT_CONFIG = {
     "target": {
-        "ip": "192.168.127.129",
+        "ip": "",  # Empty - will be filled by user input
         "port": 80,
         "uri": "/"
     },
