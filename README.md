@@ -1,9 +1,8 @@
 # 🛡️ CyberStrike Pro v4.0
-## Made by: k4n0ng
+## Credit by: k4n0ng
 **Professional Penetration Testing & Load Testing Framework**
 
 ![GitHub](https://img.shields.io/badge/python-3.8%2B-blue)
-![GitHub](https://img.shields.io/badge/license-MIT-green)
 ![GitHub](https://img.shields.io/badge/version-4.0-orange)
 
 > ⚠️ **LEGAL DISCLAIMER**: This tool is for **EDUCATIONAL PURPOSES ONLY**. Use only on systems you own or have explicit permission to test. Unauthorized use is illegal.
