@@ -36,12 +36,8 @@ class AttackController:
         """Main execution loop"""
         target = self.config_manager.get_target()
         
-        # Display target info
-        print(f"\n🎯 AGGRESSIVE TARGET: {target['ip']}:{target['port']}")
-        print(f"💀 This will generate EXTREME traffic levels")
-        
-        if input("❓ Continue? (yes/no): ").lower() != "yes":
-            log("Attack canceled by user.", "INFO")
+        # Display target info and get confirmation
+        if not self.confirm_attack(target):
             return
         
         log("💀 LAUNCHING ULTRA-AGGRESSIVE MULTI-VECTOR ATTACK...", "ATTACK")
@@ -54,6 +50,21 @@ class AttackController:
         
         # Generate final report
         self.generate_report()
+    
+    def confirm_attack(self, target):
+        """Confirm attack with user"""
+        print(f"\n⚡ ATTACK CONFIRMATION")
+        print("=" * 50)
+        print(f"🎯 Target: http://{target['ip']}:{target['port']}{target['uri']}")
+        print(f"💀 This will generate EXTREME traffic levels")
+        print(f"⏱️  Duration: 60 seconds")
+        print(f"🌪️  Attacks: HTTP Flood, Slowloris, UDP Flood, POST Flood")
+        
+        confirmation = input("\n❓ Start the attack? (yes/no): ").lower()
+        if confirmation != "yes":
+            log("Attack canceled by user.", "INFO")
+            return False
+        return True
     
     def start_attacks(self):
         """Start all enabled attacks"""
