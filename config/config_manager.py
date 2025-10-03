@@ -20,9 +20,10 @@ class ConfigManager:
             except Exception as e:
                 print(f"⚠️  Error loading config: {e}. Using defaults.")
         
-        # Save default config
-        self.save_config(settings.DEFAULT_CONFIG)
-        return settings.DEFAULT_CONFIG.copy()
+        # Use defaults but don't set target IP
+        default_config = settings.DEFAULT_CONFIG.copy()
+        default_config["target"]["ip"] = ""  # Empty IP to prompt user
+        return default_config
     
     def save_config(self, config=None):
         """Save configuration to file"""
@@ -43,6 +44,16 @@ class ConfigManager:
     def get_target(self):
         """Get target configuration"""
         return self.config["target"]
+    
+    def set_target(self, ip, port=80, uri="/", protocol="http"):
+        """Set target configuration"""
+        self.config["target"] = {
+            "ip": ip,
+            "port": port,
+            "uri": uri,
+            "protocol": protocol
+        }
+        self.save_config()
     
     def get_attack_config(self, attack_name):
         """Get configuration for specific attack"""
